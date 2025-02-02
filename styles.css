@@ -1,0 +1,120 @@
+body {
+    color:black;
+    background-color:#15e0ff ;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header{
+    background-color:black;
+    position: fixed;
+    display:flex;
+    width: 100%;
+    justify-content:space-between;
+    align-item:center;
+    height: 50px;
+    top:0;
+    border-left:45px;
+}
+nav>ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:wrap;
+    align-item:center;
+    margin-block:0;
+    padding-inline-start:0;
+    height: 100%;
+}
+nav>ul>li{
+    color: #fff;
+    display:block;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+}
+li>a{
+    color: inherit;
+    text-decoration:none;
+}
+nav>ul>li:hover{
+    background-color: #fab7cf;
+    color: #423e3e;
+    cursor:pointer;
+}
+.logo{
+    width: max(100px,18vw);
+    aspect-ratio:16/4;
+    padding: 1rem;
+}
+.ctn1 {
+    background-color: ;
+    text-align:center;
+}
+.ctn2{
+    background-color: ;
+    
+}
+.via{
+    background-color:#FDEC3D ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.package {
+    background-color:#eaffea;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+}
+
+.package h2 {
+    text-align: center;
+    color: black;
+}
+
+.package ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.package li {
+    font-size: 18px;
+    color: #333;
+}
+
+.package li:nth-child(even) {
+    color: black; /* Green for ✔ items */
+}
+
+.package li:nth-child(odd) {
+    color: black; /* Red for ✖ items */
+}
+.dis{
+    background-color:#fdec3d ;
+    color: black;
+}
+u{
+    background-color:yellow ;
+    color: black;
+}
+.cta3{
+    text-align:center;
+}
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative; /* or use 'fixed' for a sticky footer */
+    bottom: 0;
+    width: 100%;
+}
+
